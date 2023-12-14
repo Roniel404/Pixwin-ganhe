@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depósito</title>
+    <link rel="stylesheet" href="css/estilos_bonus.css">
+</head>
+
+<body>
+    <h1>
+        <img src="images/logo.70884d11.png" alt="">
+    </h1>
+    <div id="valor-container">
+        
+        <div class="valor-item" onclick="selecionarValor(10)">R$10<br>(Bônus de R$150,00)</div>
+        <div class="valor-item" onclick="selecionarValor(20)">R$20<br>(Bônus de R$250,00)</div>
+        <div class="valor-item" onclick="selecionarValor(50)">R$50<br>(Bônus de R$500,00)</div>
+        <div class="valor-item" onclick="selecionarValor(100)">R$100<br>(Bônus de R$1.000,00)</div>
+    </div>
+    <div id="notas-deposito">
+        <h2>Notas da Promo Dobro</h2>
+        <ul>
+            <li>1. A partir de 20,00 você ganhar um bônus;</li>
+            <li>2. Você pode apostar ou sacar o dinheiro pra você se quiser;</li>
+            <li>3. Bônus é inserido na sua conta em até 2 minutos.</li>
+        </ul>
+    </div>
+    <h3 id="depositar-valor"></h3><button id="depositar-btn" onclick="realizarDeposito()">DEPOSITAR E GANHAR!</button>
+    <script src="js/script_bonus.js"></script>
+
+
+</body></html>
